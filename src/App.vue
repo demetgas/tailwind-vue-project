@@ -7,6 +7,7 @@
   <Info />
   <WhatWeDo />
   <Gallery />
+  <Message />
 </template>
 
 <script>
@@ -18,6 +19,7 @@ import ReadMore from "./components/ReadMore.vue";
 import Info from "./components/Info.vue";
 import WhatWeDo from "./components/WhatWeDo.vue";
 import Gallery from "./components/Gallery.vue";
+import Message from "./components/Message.vue";
 
 export default {
   name: "App",
@@ -30,6 +32,7 @@ export default {
     Info,
     WhatWeDo,
     Gallery,
+    Message,
   },
 };
 </script>
