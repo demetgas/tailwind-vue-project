@@ -6,6 +6,7 @@
   <ReadMore />
   <Info />
   <WhatWeDo />
+  <Gallery />
 </template>
 
 <script>
@@ -16,6 +17,7 @@ import Intro from "./components/Intro.vue";
 import ReadMore from "./components/ReadMore.vue";
 import Info from "./components/Info.vue";
 import WhatWeDo from "./components/WhatWeDo.vue";
+import Gallery from "./components/Gallery.vue";
 
 export default {
   name: "App",
@@ -27,6 +29,7 @@ export default {
     ReadMore,
     Info,
     WhatWeDo,
+    Gallery,
   },
 };
 </script>
