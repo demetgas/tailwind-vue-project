@@ -1,17 +1,20 @@
 <template>
   <Navbar />
   <Hero />
+  <Cats />
 </template>
 
 <script>
 import Navbar from "./components/Navbar.vue";
 import Hero from "./components/Hero.vue";
+import Cats from "./components/Cats.vue";
 
 export default {
   name: "App",
   components: {
     Navbar,
     Hero,
+    Cats,
   },
 };
 </script>
