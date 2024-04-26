@@ -12,7 +12,7 @@
             Welcome to the Cat Paradise
           </h1>
           <h2
-            className="lg:text-[45px] md:text-[30px] sm:text-[20px] py-4 italic"
+            className="lg:text-[45px] md:text-[30px] sm:text-[20px] py-4 italic text-justify"
           >
             Meet Our Furry Friends...
           </h2>

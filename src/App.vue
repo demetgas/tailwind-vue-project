@@ -2,12 +2,14 @@
   <Navbar />
   <Hero />
   <Cats />
+  <Intro />
 </template>
 
 <script>
 import Navbar from "./components/Navbar.vue";
 import Hero from "./components/Hero.vue";
 import Cats from "./components/Cats.vue";
+import Intro from "./components/Intro.vue";
 
 export default {
   name: "App",
@@ -15,6 +17,7 @@ export default {
     Navbar,
     Hero,
     Cats,
+    Intro,
   },
 };
 </script>
