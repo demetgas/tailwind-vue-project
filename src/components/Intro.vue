@@ -2,12 +2,12 @@
   <div
     class="max-w-[100svw] mx-auto h-[30svh] bg-hero mt-64 text-white flex justify-center items-center"
   >
-    <div class="text-center">
-      <h1 class="lg:text-4xl md:text-3xl sm:text-[27px] font-bold">
+    <div class="text-center mx-auto">
+      <h1 class="lg:text-4xl md:text-2xl sm:text-[27px] font-bold">
         Welcome to our cat community, where our furry friends are here to
         support you!
       </h1>
-      <p class="text-2xl mt-8">
+      <p class="lg:text-2xl md:text-xl mt-8">
         Join us to share in the joy and wonder that these charming creatures
         bring to our lives.
       </p>
