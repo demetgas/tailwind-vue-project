@@ -5,6 +5,7 @@
   <Intro />
   <ReadMore />
   <Info />
+  <WhatWeDo />
 </template>
 
 <script>
@@ -14,6 +15,7 @@ import Cats from "./components/Cats.vue";
 import Intro from "./components/Intro.vue";
 import ReadMore from "./components/ReadMore.vue";
 import Info from "./components/Info.vue";
+import WhatWeDo from "./components/WhatWeDo.vue";
 
 export default {
   name: "App",
@@ -24,6 +26,7 @@ export default {
     Intro,
     ReadMore,
     Info,
+    WhatWeDo,
   },
 };
 </script>
