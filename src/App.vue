@@ -3,6 +3,7 @@
   <Hero />
   <Cats />
   <Intro />
+  <ReadMore />
 </template>
 
 <script>
@@ -10,6 +11,7 @@ import Navbar from "./components/Navbar.vue";
 import Hero from "./components/Hero.vue";
 import Cats from "./components/Cats.vue";
 import Intro from "./components/Intro.vue";
+import ReadMore from "./components/ReadMore.vue";
 
 export default {
   name: "App",
@@ -18,6 +20,7 @@ export default {
     Hero,
     Cats,
     Intro,
+    ReadMore,
   },
 };
 </script>
