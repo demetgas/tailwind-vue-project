@@ -4,6 +4,7 @@
   <Cats />
   <Intro />
   <ReadMore />
+  <Info />
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import Hero from "./components/Hero.vue";
 import Cats from "./components/Cats.vue";
 import Intro from "./components/Intro.vue";
 import ReadMore from "./components/ReadMore.vue";
+import Info from "./components/Info.vue";
 
 export default {
   name: "App",
@@ -21,6 +23,7 @@ export default {
     Cats,
     Intro,
     ReadMore,
+    Info,
   },
 };
 </script>
