@@ -1,6 +1,8 @@
 <template>
   <div class="max-w-[1200px] mx-auto">
-    <h2 class="text-center text-gray-700 font-bold text-4xl mt-20 mb-10">
+    <h2
+      class="text-center text-gray-700 font-bold text-4xl lg:mt-[80px] md:mt-[520px] mb-10"
+    >
       The pictures sent by our users...
     </h2>
     <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-10 p-10">
