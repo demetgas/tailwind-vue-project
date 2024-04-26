@@ -1,6 +1,6 @@
 <template>
   <div
-    class="max-w-[1900px] mt-40 mx-auto lg:min-h-[25svh] md:h-[15svh] sm:h-[50svh] items-center"
+    class="max-w-[1900px] mt-40 mx-auto lg:min-h-[25svh] md:h-[15svh] sm:h-[120svh] items-center"
   >
     <div
       class="grid md:grid-cols-2 w-full lg:grid-cols-3 md:gap-[28px] lg:gap-[80px]"

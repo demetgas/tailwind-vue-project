@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-[1200px] mx-auto">
     <h2
-      class="text-center text-gray-700 font-bold text-4xl lg:mt-[80px] md:mt-[520px] mb-10"
+      class="text-center text-gray-700 font-bold text-4xl lg:mt-[60px] md:mt-[190px] mb-10"
     >
       The pictures sent by our users...
     </h2>
