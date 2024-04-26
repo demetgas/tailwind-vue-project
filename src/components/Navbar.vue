@@ -6,7 +6,7 @@
       className="pl-16 text-2xl text-gray-400 hover:text-white hover:scale-110 transition-all delay-75 cursor-pointer"
     >
       LITTLE PAWS
-      <FontAwesomeIcon className="icon" icon="{faCat}" />
+      <font-awesome-icon class="icon" :icon="faCat" />
     </div>
     <div className="flex space-x-6 pr-16 text-gray-400 text-xl cursor-pointer">
       <a href="/" className="hover:text-white"> Home </a>
@@ -18,8 +18,18 @@
 </template>
 
 <script>
+import { faCat } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 export default {
   name: "NavBar",
+  components: {
+    FontAwesomeIcon,
+  },
+  computed: {
+    faCat() {
+      return faCat;
+    },
+  },
 };
 </script>
 
