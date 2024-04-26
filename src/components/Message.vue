@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[1140px] m-auto mt-[5svh]">
+  <div id="contact" class="max-w-[1140px] m-auto mt-[5svh]">
     <h2 class="text-center text-gray-700 p-4 font-bold text-4xl">
       Send us a message
     </h2>

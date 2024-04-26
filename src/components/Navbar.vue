@@ -10,9 +10,10 @@
     </div>
     <div class="flex space-x-6 pr-16 text-gray-400 text-xl cursor-pointer">
       <a href="/" class="hover:text-white"> Home </a>
-      <a href="/" class="hover:text-white"> Info </a>
-      <a href="/" class="hover:text-white"> Contact </a>
-      <a href="/" class="hover:text-white"> Gallery </a>
+      <a href="#purpose" class="hover:text-white"> Purpose </a>
+      <a href="#info" class="hover:text-white"> Info </a>
+      <a href="#gallery" class="hover:text-white"> Gallery </a>
+      <a href="#contact" class="hover:text-white"> Contact </a>
     </div>
   </div>
 </template>

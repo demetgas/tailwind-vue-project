@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[1200px] mx-auto">
+  <div id="gallery" class="max-w-[1200px] mx-auto">
     <h2
       class="text-center text-gray-700 font-bold text-4xl lg:mt-[60px] md:mt-[190px] mb-10"
     >
