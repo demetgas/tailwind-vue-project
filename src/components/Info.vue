@@ -1,7 +1,7 @@
 <template>
   <div
     id="info"
-    class="max-w-[100%] p-10 lg:mt-[650px] md:mt-[1000px] sm:mt-[180px] bg-babyblue"
+    class="max-w-[100%] p-10 lg:mt-[30px] md:mt-[60px] sm:mt-[10px] bg-babyblue"
   >
     <h2 class="text-center text-gray-700 p-4 font-bold text-4xl italic">
       Cats are fascinating creatures
