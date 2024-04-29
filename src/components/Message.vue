@@ -10,7 +10,7 @@
       <img
         :src="f2"
         alt="/"
-        class="md:h-full sm:w-[400px] sm:h-[400px] sm:mx-auto p-2 max-h-[500px] h-[200px] w-[420px] hover:scale-110 transition-all delay-75"
+        class="md:h-full sm:w-[400px] sm:h-[400px] mx-auto xs:w-[400px] xs:h-[400px]  p-2 max-h-[500px] h-[200px] w-[420px] hover:scale-110 transition-all delay-75"
       />
       <form>
         <div class="grid grid-cols-2">

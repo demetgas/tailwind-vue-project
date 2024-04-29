@@ -58,6 +58,15 @@
           tapestry of charm into the fabric of our lives.
         </p>
       </div>
+      <div className="flex my-5 md:text-[15px] lg:text-[17px]">
+        <font-awesome-icon
+          class="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
+          :icon="faArrowRight"
+        />
+          <p>
+          Additionally, cats are known for their keen senses, particularly their exceptional night vision and sensitive whiskers.
+          </p>
+        </div>
       <button
         className="bg-hero2 hover:bg-hero rounded w-32 h-12 text-white font-bold md:mt-5 lg:mt-10 sm:mt-5"
       >
@@ -78,7 +87,7 @@
           :key="comment.id"
           className="border-8  h-auto border-babyblue rounded hover:scale-110  transition-all delay-75 cursor-pointer"
         >
-          <p className="text-lg md:text-xl font-bold">{{ comment.title }}</p>
+          <p className="text-lg md:text-xl font-bold mt-4">{{ comment.title }}</p>
           <p className="text-lg md:text-xl p-3 text-justify  ">
             {{ comment.desc }}
           </p>
