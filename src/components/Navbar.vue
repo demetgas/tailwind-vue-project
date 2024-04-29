@@ -3,12 +3,12 @@
     class="w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white"
   >
     <div
-      class="pl-8 text-2xl text-gray-400 hover:text-white hover:scale-110 transition-all delay-75 cursor-pointer"
+      class="pl-16 text-2xl text-gray-400 hover:text-white hover:scale-110 transition-all delay-75 cursor-pointer"
     >
       LITTLE PAWS
       <font-awesome-icon class="icon" :icon="faCat" />
     </div>
-    <div class="md:hidden pr-8">
+    <div class="md:hidden">
       <button
         @click="handleClick"
         class="text-xl text-gray-400 mr-4 focus:outline-none"
