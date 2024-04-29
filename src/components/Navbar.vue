@@ -44,7 +44,7 @@
         <a href="/">Home</a>
       </li>
       <li class="p-4 hover:text-white" @click="handleClick">
-        <a href="#purpose">Purpose</a>
+        <a href="#purpose">About</a>
       </li>
       <li class="p-4 hover:text-white" @click="handleClick">
         <a href="#info">Info</a>
