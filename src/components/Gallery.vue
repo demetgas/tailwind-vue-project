@@ -5,7 +5,7 @@
     >
       The pictures sent by our users...
     </h2>
-    <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-10 md:p-10">
+    <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-10 md:p-10 xs:p-10">
       <div
         class="border-8 h-auto md:mx-auto border-babyblue bg-babyblue p-10 my-auto"
       >
@@ -27,7 +27,7 @@
         </p>
       </div>
       <div
-        class="grid md:grid-cols-3 sm:grid-cols-2 md:mx-auto md:gap-x-10 sm:mx-auto sm:gap-x-20 lg:gap-0 lg:grid-cols-3 gap-1 mx-auto"
+        class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 md:mx-auto xs:mx-auto md:gap-x-5 sm:mx-auto sm:gap-x-10 lg:gap-0 gap-1"
       >
         <div :key="picture.id" v-for="picture in gallery">
           <img
