@@ -27,7 +27,7 @@
         </p>
       </div>
       <div
-        class="grid md:grid-cols-3 sm:grid-cols-2 md:mx-auto md:gap-x-10 sm:mx-auto sm:gap-x-20 lg:gap-0 lg:grid-cols-3 gap-1"
+        class="grid md:grid-cols-3 sm:grid-cols-2 md:mx-auto md:gap-x-10 sm:mx-auto sm:gap-x-20 lg:gap-0 lg:grid-cols-3 gap-1 mx-auto"
       >
         <div :key="picture.id" v-for="picture in gallery">
           <img

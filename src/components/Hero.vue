@@ -4,15 +4,19 @@
     <div class="grid grid-cols-2 absolute inset-0">
       <div class="flex items-center justify-center p-4 text-white">
         <div>
-          <h1 class="lg:text-[70px] md:text-[50px] sm:text-[40px]">
+          <h1
+            class="lg:text-[70px] md:text-[50px] sm:text-[40px] xs:text-[23px]"
+          >
             Welcome to the Cat Paradise
           </h1>
           <h2
-            class="lg:text-[45px] md:text-[30px] sm:text-[20px] py-4 italic text-justify"
+            class="lg:text-[45px] md:text-[30px] sm:text-[20px] xs:text-[17px] py-4 italic text-justify"
           >
             Meet Our Furry Friends...
           </h2>
-          <p class="text-justify max-w-[750px] text-[20px]">
+          <p
+            class="text-justify max-w-[750px] lg:text-[20px] md:text-[20px] sm:text-[20px] xs:text-[17px]"
+          >
             Here at our home, we are proud to introduce you to our beloved
             feline companions. Each one has their own unique personality and
             charm, and they bring endless joy to our lives. Join us on this

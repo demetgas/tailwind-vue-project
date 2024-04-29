@@ -2,7 +2,7 @@
   <div id="purpose" class="max-w-[100%] lg:h-[30svh] md:h-[60svh] mt-[120px]">
     <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-10">
       <div
-        class="mx-auto border-2 m-10 lg:w-[20svw] md:w-[20svh] sm:w-[40svw] h-auto p-5 flex flex-col items-center hover:scale-110 transition-all delay-75 cursor-pointer"
+        class="mx-auto border-2 m-10 lg:w-[20svw] md:w-[20svh] sm:w-[40svw] xs:w-[80svw] h-auto p-5 flex flex-col items-center hover:scale-110 transition-all delay-75 cursor-pointer"
       >
         <font-awesome-icon class="text-babyblue2" size="4x" :icon="faCat" />
 
@@ -15,7 +15,7 @@
         </p>
       </div>
       <div
-        class="mx-auto border-2 m-10 lg:w-[20svw] md:w-[280px] sm:w-[40svw] h-auto p-5 flex flex-col items-center hover:scale-110 transition-all delay-75 cursor-pointer"
+        class="mx-auto border-2 m-10 lg:w-[20svw] md:w-[280px] sm:w-[40svw] xs:w-[80svw] h-auto p-5 flex flex-col items-center hover:scale-110 transition-all delay-75 cursor-pointer"
       >
         <font-awesome-icon class="text-babyblue2" size="4x" :icon="faPaw" />
         <h2 class="text-center font-bold m-2">A Lovely Place</h2>
@@ -27,7 +27,7 @@
         </p>
       </div>
       <div
-        class="mx-auto border-2 m-10 lg:w-[20svw] md:w-[280px] sm:w-[40svw] h-auto p-5 flex flex-col items-center hover:scale-110 transition-all delay-75 cursor-pointer"
+        class="mx-auto border-2 m-10 lg:w-[20svw] md:w-[280px] sm:w-[40svw] xs:w-[80svw] h-auto p-5 flex flex-col items-center hover:scale-110 transition-all delay-75 cursor-pointer"
       >
         <font-awesome-icon
           class="text-babyblue2"
@@ -44,7 +44,7 @@
         </p>
       </div>
       <div
-        class="mx-auto border-2 m-10 lg:w-[20svw] md:w-[280px] sm:w-[40svw] h-auto p-5 flex flex-col items-center hover:scale-110 transition-all delay-75 cursor-pointer"
+        class="mx-auto border-2 m-10 lg:w-[20svw] md:w-[280px] sm:w-[40svw] xs:w-[80svw] h-auto p-5 flex flex-col items-center hover:scale-110 transition-all delay-75 cursor-pointer"
       >
         <font-awesome-icon class="text-babyblue2" size="4x" :icon="faHeart" />
         <h2 class="text-center font-bold m-2">A Lovely Day</h2>
