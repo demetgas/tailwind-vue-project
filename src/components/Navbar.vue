@@ -3,26 +3,78 @@
     class="w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white"
   >
     <div
-      class="pl-16 text-2xl text-gray-400 hover:text-white hover:scale-110 transition-all delay-75 cursor-pointer"
+      class="pl-8 text-2xl text-gray-400 hover:text-white hover:scale-110 transition-all delay-75 cursor-pointer"
     >
       LITTLE PAWS
       <font-awesome-icon class="icon" :icon="faCat" />
     </div>
-    <div class="flex space-x-6 pr-16 text-gray-400 text-xl cursor-pointer">
-      <a href="/" class="hover:text-white"> Home </a>
-      <a href="#purpose" class="hover:text-white"> Purpose </a>
-      <a href="#info" class="hover:text-white"> Info </a>
-      <a href="#gallery" class="hover:text-white"> Gallery </a>
-      <a href="#contact" class="hover:text-white"> Contact </a>
+    <div class="md:hidden pr-8">
+      <button
+        @click="handleClick"
+        class="text-xl text-gray-400 mr-4 focus:outline-none"
+      >
+        <font-awesome-icon :icon="open ? faTimes : faBars" />
+      </button>
     </div>
+    <ul
+      :class="[
+        'md:flex',
+        open ? 'block' : 'hidden',
+        'md:mt-0',
+        'mt-4',
+        'absolute',
+        'md:relative',
+        'top-full',
+        'right-0',
+        'md:top-0',
+        'md:right-auto',
+        'flex-col',
+        'md:flex-row',
+        'text-gray-400',
+        'text-xl',
+        'bg-hero2',
+        'md:bg-transparent',
+        'w-full',
+        'md:w-auto',
+        'justify-center',
+        'items-center',
+      ]"
+    >
+      <li class="p-4 hover:text-white" @click="handleClick">
+        <a href="/">Home</a>
+      </li>
+      <li class="p-4 hover:text-white" @click="handleClick">
+        <a href="#purpose">Purpose</a>
+      </li>
+      <li class="p-4 hover:text-white" @click="handleClick">
+        <a href="#info">Info</a>
+      </li>
+      <li class="p-4 hover:text-white" @click="handleClick">
+        <a href="#gallery">Gallery</a>
+      </li>
+      <li class="p-4 hover:text-white" @click="handleClick">
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
-import { faCat } from "@fortawesome/free-solid-svg-icons";
+import { faCat, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
 export default {
   name: "NavBar",
+  data() {
+    return {
+      open: false,
+    };
+  },
+  methods: {
+    handleClick() {
+      this.open = !this.open;
+    },
+  },
   components: {
     FontAwesomeIcon,
   },
@@ -30,24 +82,14 @@ export default {
     faCat() {
       return faCat;
     },
+    faBars() {
+      return faBars;
+    },
+    faTimes() {
+      return faTimes;
+    },
   },
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-/*h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}*/
-</style>
+<style scoped></style>
