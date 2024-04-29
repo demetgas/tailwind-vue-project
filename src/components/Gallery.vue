@@ -5,7 +5,7 @@
     >
       The pictures sent by our users...
     </h2>
-    <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-10 p-10">
+    <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-10 md:p-10">
       <div
         class="border-8 h-auto md:mx-auto border-babyblue bg-babyblue p-10 my-auto"
       >

@@ -1,10 +1,6 @@
 <template>
   <div class="relative w-full h-[78.5vh]">
-    <img
-      src="https://mrwallpaper.com/images/hd/minimalist-black-cat-backgrounds-3gy1fpvdc0tbdimn.jpg"
-      alt="/"
-      class="w-full h-full object-cover transform scale-x-[-1]"
-    />
+    <img :src="bghero" alt="/" class="w-full h-full object-cover transform" />
     <div class="grid grid-cols-2 absolute inset-0">
       <div class="flex items-center justify-center p-4 text-white">
         <div>
@@ -37,8 +33,14 @@
 </template>
 
 <script>
+import bghero from "../assets/bghero.jpg";
 export default {
   name: "HeroSection",
+  data() {
+    return {
+      bghero: bghero,
+    };
+  },
 };
 </script>
 

@@ -3,7 +3,9 @@
     id="info"
     class="max-w-[100%] p-10 lg:mt-[30px] md:mt-[60px] sm:mt-[10px] bg-babyblue"
   >
-    <h2 class="text-center text-gray-700 p-4 font-bold text-4xl italic">
+    <h2
+      class="text-center text-gray-700 font-bold lg:text-4xl md:text-3xl sm:text-3xl italic"
+    >
       Cats are fascinating creatures
     </h2>
     <div
