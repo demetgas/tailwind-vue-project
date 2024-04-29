@@ -1,5 +1,5 @@
 <template>
-  <div id="purpose" class="max-w-[100%] lg:h-[30svh] md:h-[60svh] mt-[120px]">
+  <div id="purpose" class="max-w-[100%] lg:h-auto mt-[120px]">
     <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-10">
       <div
         v-for="item in whatwedo"
