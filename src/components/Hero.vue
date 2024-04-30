@@ -1,21 +1,23 @@
 <template>
-  <div class="relative w-full h-[78.5vh]">
-    <img :src="bghero" alt="/" class="w-full h-full object-cover transform" />
-    <div class="grid grid-cols-2 absolute inset-0">
-      <div class="flex items-center justify-center p-4 text-white">
+  <div className="relative w-full h-[78.5vh]">
+    <img :src="bghero" alt="/" className="w-full h-[78.5vh] object-cover" />
+    <div className="grid md:grid-cols-2 grid-cols-1 absolute inset-0">
+      <div
+        className="flex items-center justify-center p-4 text-white mt-28 md:mt-0 "
+      >
         <div>
           <h1
-            class="lg:text-[70px] md:text-[50px] sm:text-[40px] xs:text-[23px]"
+            className="lg:text-[70px] md:text-[50px] sm:text-[40px] text-[25px]"
           >
             Welcome to the Cat Paradise
           </h1>
           <h2
-            class="lg:text-[45px] md:text-[30px] sm:text-[20px] xs:text-[17px] py-4 italic text-justify"
+            className="lg:text-[45px] md:text-[30px] sm:text-[25px] text-[20px] py-4 italic"
           >
             Meet Our Furry Friends...
           </h2>
           <p
-            class="text-justify max-w-[750px] lg:text-[20px] md:text-[20px] sm:text-[20px] xs:text-[17px]"
+            className="text-justify max-w-[750px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[17px]"
           >
             Here at our home, we are proud to introduce you to our beloved
             feline companions. Each one has their own unique personality and
@@ -25,11 +27,11 @@
           </p>
         </div>
       </div>
-      <div class="relative flex items-center justify-center overflow-hidden">
+      <div className=" flex items-center justify-center overflow-hidden">
         <img
           src="https://parspng.com/wp-content/uploads/2023/01/catpng.parspng.com-6.png"
           alt="/"
-          class="max-w-full max-h-max opacity-75 transform scale-x-[-1] self-end"
+          className="md:max-w-full md:max-h-max max-w-[80vw] hidden xs:block sm:block md:block opacity-75 transform scale-x-[-1] self-end"
         />
       </div>
     </div>
