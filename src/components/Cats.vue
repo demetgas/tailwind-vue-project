@@ -4,7 +4,7 @@
   >
     <div
       v-for="cat in cats"
-      class="relative p-4 hover:scale-110 transition-all delay-75 cursor-pointer text-center"
+      class="relative p-4 hover:scale-110 hover:underline transition-all delay-75 cursor-pointer text-center"
       :key="cat.id"
     >
       <img
@@ -13,7 +13,7 @@
         alt="/"
       />
       <h3
-        class="text-black underline bg-opacity-70 rounded-md p-1.5 border-black text-xl font-bold"
+        class="text-black bg-opacity-70 rounded-md p-1.5 border-black text-xl font-bold"
       >
         {{ cat.name }}
       </h3>

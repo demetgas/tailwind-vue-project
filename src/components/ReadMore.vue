@@ -88,7 +88,7 @@
         <div
           v-for="comment in comments"
           :key="comment.id"
-          className="border-8  h-auto border-babyblue rounded hover:scale-110  transition-all delay-75 cursor-pointer"
+          className="border-8  h-auto border-babyblue rounded hover:scale-110 hover:border-babyblue2  transition-all delay-75 cursor-pointer"
         >
           <p className="text-lg md:text-xl font-bold mt-4">
             {{ comment.title }}

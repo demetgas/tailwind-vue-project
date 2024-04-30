@@ -4,7 +4,7 @@
       <div
         v-for="item in whatwedo"
         :key="item.id"
-        class="mx-auto border-2 m-10 lg:w-[20svw] md:w-[20svh] sm:w-[40svw] xs:w-[80svw] h-auto p-5 flex flex-col items-center hover:scale-110 transition-all delay-75 cursor-pointer"
+        class="mx-auto border-2 m-10 lg:w-[20svw] md:w-[20svh] sm:w-[40svw] xs:w-[80svw] h-auto p-5 flex flex-col items-center hover:scale-110 hover:border-babyblue2 transition-all delay-75 cursor-pointer"
       >
         <font-awesome-icon class="text-babyblue2" size="4x" :icon="item.icon" />
 
