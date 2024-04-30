@@ -7,7 +7,7 @@
     </h2>
     <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-10 md:p-10 xs:p-10">
       <div
-        class="border-8 h-auto md:mx-auto border-babyblue bg-babyblue p-10 my-auto"
+        class="border-8 h-auto md:mx-auto border-babyblue bg-babyblue my-auto"
       >
         <h1 class="text-center text-gray-700 text-3xl mb-5">Thank you</h1>
         <p class="text-lg text-justify">
