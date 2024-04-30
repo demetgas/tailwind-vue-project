@@ -1,23 +1,21 @@
 <template>
-  <div className="relative w-full h-[78.5vh]">
-    <img :src="bghero" alt="/" className="w-full h-[78.5vh] object-cover" />
-    <div className="grid md:grid-cols-2 grid-cols-1 absolute inset-0">
+  <div class="relative w-full h-[78.5vh]">
+    <img :src="bghero" alt="/" class="w-full h-[78.5vh] object-cover" />
+    <div class="grid md:grid-cols-2 grid-cols-1 absolute inset-0">
       <div
-        className="flex items-center justify-center p-4 text-white mt-28 md:mt-0 "
+        class="flex items-center justify-center p-4 text-white mt-28 md:mt-0"
       >
         <div>
-          <h1
-            className="lg:text-[70px] md:text-[50px] sm:text-[40px] text-[25px]"
-          >
+          <h1 class="lg:text-[70px] md:text-[50px] sm:text-[40px] text-[25px]">
             Welcome to the Cat Paradise
           </h1>
           <h2
-            className="lg:text-[45px] md:text-[30px] sm:text-[25px] text-[20px] py-4 italic"
+            class="lg:text-[45px] md:text-[30px] sm:text-[25px] text-[20px] py-4 italic"
           >
             Meet Our Furry Friends...
           </h2>
           <p
-            className="text-justify max-w-[750px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[17px]"
+            class="text-justify max-w-[750px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[17px]"
           >
             Here at our home, we are proud to introduce you to our beloved
             feline companions. Each one has their own unique personality and
@@ -27,11 +25,11 @@
           </p>
         </div>
       </div>
-      <div className=" flex items-center justify-center overflow-hidden">
+      <div class="flex items-center justify-center overflow-hidden">
         <img
           src="https://parspng.com/wp-content/uploads/2023/01/catpng.parspng.com-6.png"
           alt="/"
-          className="md:max-w-full md:max-h-max max-w-[80vw] hidden xs:block sm:block md:block opacity-75 transform scale-x-[-1] self-end"
+          class="md:max-w-full md:max-h-max max-w-[80vw] hidden xs:block sm:block md:block opacity-75 transform scale-x-[-1] self-end"
         />
       </div>
     </div>
