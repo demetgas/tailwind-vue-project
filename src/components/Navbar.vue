@@ -40,19 +40,19 @@
         'items-center',
       ]"
     >
-      <li class="p-4 hover:text-white" @click="handleClick">
+      <li class="p-4 hover:text-white hover:underline" @click="handleClick">
         <a href="/">Home</a>
       </li>
-      <li class="p-4 hover:text-white" @click="handleClick">
+      <li class="p-4 hover:text-white hover:underline" @click="handleClick">
         <a href="#purpose">About</a>
       </li>
-      <li class="p-4 hover:text-white" @click="handleClick">
+      <li class="p-4 hover:text-white hover:underline" @click="handleClick">
         <a href="#info">Info</a>
       </li>
-      <li class="p-4 hover:text-white" @click="handleClick">
+      <li class="p-4 hover:text-white hover:underline" @click="handleClick">
         <a href="#gallery">Gallery</a>
       </li>
-      <li class="p-4 hover:text-white" @click="handleClick">
+      <li class="p-4 hover:text-white hover:underline" @click="handleClick">
         <a href="#contact">Contact</a>
       </li>
     </ul>
