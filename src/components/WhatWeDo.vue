@@ -9,7 +9,7 @@
         <font-awesome-icon class="text-babyblue2" size="4x" :icon="item.icon" />
 
         <h2 class="text-center font-bold m-2">{{ item.title }}</h2>
-        <p class="text-center">{{ item.desc }}</p>
+        <p class="text-justify">{{ item.desc }}</p>
       </div>
     </div>
   </div>
