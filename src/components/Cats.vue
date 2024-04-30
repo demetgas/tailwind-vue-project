@@ -1,6 +1,6 @@
 <template>
   <div
-    class="max-w-[1140px] mx-auto w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-[-75px]"
+    class="max-w-[1140px] mx-auto w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-[-75px]"
   >
     <div
       v-for="cat in cats"
