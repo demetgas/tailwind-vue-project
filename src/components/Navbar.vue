@@ -21,7 +21,6 @@
         'md:flex',
         open ? 'block' : 'hidden',
         'md:mt-0',
-        'mt-4',
         'absolute',
         'md:relative',
         'top-full',
@@ -34,8 +33,9 @@
         'text-xl',
         'bg-hero2',
         'md:bg-transparent',
-        'w-full',
+        'w-[30vw]',
         'md:w-auto',
+        'text-center',
         'justify-center',
         'items-center',
       ]"
