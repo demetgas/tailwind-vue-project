@@ -18,17 +18,19 @@
       >
         Check this out
       </p>
-      <h1 className="lg:text-3xl md:text-[25px] mt-2">
+      <h1
+        className="lg:text-3xl md:text-[25px] xs:text-lg sm:text-2xl mt-2 text-start  "
+      >
         <b>Captivating Creatures:</b> The Enigmatic Charm of Cats
       </h1>
-      <p className="flex mt-5 md:text-[15px] lg:text-[17px]">
+      <p className="flex mt-5 md:text-[15px] lg:text-[17px] p-2">
         Cats, with their enigmatic gaze and graceful movements, possess an
         undeniable allure that has captivated humans for centuries. These
         enigmatic felines, revered in ancient cultures and cherished as beloved
         companions in modern times, embody a unique blend of independence and
         affection.
       </p>
-      <div className="flex my-5 md:text-[15px] lg:text-[17px]">
+      <div className="flex my-5 md:text-[15px] lg:text-[17px] pr-2">
         <font-awesome-icon
           class="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
           :icon="faArrowRight"
@@ -38,7 +40,7 @@
           every step.
         </p>
       </div>
-      <div className="flex my-5 md:text-[15px] lg:text-[17px]">
+      <div className="flex  md:text-[15px] lg:text-[17px] pr-2">
         <font-awesome-icon
           class="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
           :icon="faArrowRight"
@@ -48,7 +50,7 @@
           intrigues and delights.
         </p>
       </div>
-      <div className="flex my-5 md:text-[15px] lg:text-[17px]">
+      <div className="flex my-5 md:text-[15px] lg:text-[17px] pr-2">
         <font-awesome-icon
           class="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
           :icon="faArrowRight"
@@ -58,17 +60,18 @@
           tapestry of charm into the fabric of our lives.
         </p>
       </div>
-      <div className="flex my-5 md:text-[15px] lg:text-[17px]">
+      <div className="flex  md:text-[15px] lg:text-[17px] pr-2">
         <font-awesome-icon
           class="mx-3 my-1 hover:text-babyblue2 delay-75 cursor-pointer"
           :icon="faArrowRight"
         />
-          <p>
-          Additionally, cats are known for their keen senses, particularly their exceptional night vision and sensitive whiskers.
-          </p>
-        </div>
+        <p>
+          Additionally, cats are known for their keen senses, particularly their
+          exceptional night vision and sensitive whiskers.
+        </p>
+      </div>
       <button
-        className="bg-hero2 hover:bg-hero rounded w-32 h-12 text-white font-bold md:mt-5 lg:mt-10 sm:mt-5"
+        className="bg-hero2 hover:bg-hero rounded w-32 h-12 text-white font-bold md:mt-8 lg:mt-10 sm:mt-5 xs:mt-5 xs:mx-auto sm:mx-auto md:mx-0 lg:mx-0 "
       >
         Read More
       </button>
@@ -87,7 +90,9 @@
           :key="comment.id"
           className="border-8  h-auto border-babyblue rounded hover:scale-110  transition-all delay-75 cursor-pointer"
         >
-          <p className="text-lg md:text-xl font-bold mt-4">{{ comment.title }}</p>
+          <p className="text-lg md:text-xl font-bold mt-4">
+            {{ comment.title }}
+          </p>
           <p className="text-lg md:text-xl p-3 text-justify  ">
             {{ comment.desc }}
           </p>
