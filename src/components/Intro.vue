@@ -12,7 +12,7 @@
         bring to our lives.
       </p>
       <button
-        class="bg-babyblue hover:bg-babyblue2 rounded w-32 h-12 text-black font-bold mt-10"
+        class="bg-babyblue hover:bg-babyblue2 transition duration-3000 ease-out delay-100 rounded w-32 h-12 text-black font-bold mt-10"
       >
         Contact Us
       </button>
