@@ -1,18 +1,15 @@
 <template>
   <div
-    class="w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white"
+    class="w-full min-h-[50px] bg-hero flex justify-between items-center absolute z-10 text-white"
   >
     <div
-      class="lg:pl-16 md:pl-16 sm:pl-5 pl-5 text-2xl text-gray-400 hover:text-white hover:scale-110 transition-all delay-75 cursor-pointer"
+      class="md:pl-16 pl-5 text-2xl text-gray-400 hover:text-white hover:scale-110 transition-all delay-75 cursor-pointer"
     >
       LITTLE PAWS
       <font-awesome-icon class="icon" :icon="faCat" />
     </div>
     <div class="md:hidden">
-      <button
-        @click="handleClick"
-        class="text-xl text-gray-400 mr-4 focus:outline-none"
-      >
+      <button @click="handleClick" class="text-xl text-gray-400 mr-4">
         <font-awesome-icon :icon="open ? faTimes : faBars" />
       </button>
     </div>
