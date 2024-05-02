@@ -1,14 +1,12 @@
 <template>
   <div id="gallery" class="max-w-[1200px] mx-auto">
     <h2
-      class="text-center text-gray-700 font-bold text-4xl lg:mt-[60px] md:mt-[10rem] sm:mt-[190px] mb-10"
+      class="text-center text-gray-700 font-bold md:text-4xl sm:text-3xl text-2xl mt-20 mb-10"
     >
       The pictures sent by our users...
     </h2>
-    <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-10 md:p-10 xs:p-10">
-      <div
-        class="border-8 h-auto md:mx-auto border-babyblue bg-babyblue my-auto"
-      >
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:p-10 p-7">
+      <div class="border-8 h-auto border-babyblue bg-babyblue p-10 my-auto">
         <h1 class="text-center text-gray-700 text-3xl mb-5">Thank you</h1>
         <p class="text-lg text-justify">
           We are immensely delighted whenever we receive pictures from our
@@ -27,7 +25,7 @@
         </p>
       </div>
       <div
-        class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 md:mx-auto xs:mx-auto md:gap-x-5 sm:mx-auto sm:gap-x-10 lg:gap-0 gap-1"
+        class="grid md:grid-cols-3 grid-cols-2 md:gap-x-5 mx-auto lg:gap-0 gap-1"
       >
         <div :key="picture.id" v-for="picture in gallery">
           <img
