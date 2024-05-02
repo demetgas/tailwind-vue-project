@@ -6,11 +6,11 @@
         class="flex items-center justify-center p-4 text-white mt-28 md:mt-0"
       >
         <div>
-          <h1 class="lg:text-[70px] md:text-[50px] sm:text-[40px] text-[25px]">
+          <h1 class="lg:text-[70px] md:text-[50px] sm:text-[40px] text-[27px]">
             Welcome to the Cat Paradise
           </h1>
           <h2
-            class="lg:text-[45px] md:text-[30px] sm:text-[25px] text-[20px] py-4 italic"
+            class="lg:text-[45px] md:text-[30px] sm:text-[28px] text-[22px] py-4 italic"
           >
             Meet Our Furry Friends...
           </h2>
