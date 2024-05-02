@@ -7,7 +7,7 @@
       <img
         src="https://m.media-amazon.com/images/M/MV5BOWI3NzQ0MTAtMGQzNi00NjY5LTk5YTYtZjE0M2EzODlkNGRhXkEyXkFqcGdeQXVyMjAwNzczNTU@._V1_.jpg"
         alt="Enigmatic Cat"
-        className="lg:min-w-1/4 md:w-[380px] md:min-h-[490px]  sm:w-[60svw] xs:w-[60svw] mx-auto   md:mt-20 lg:mt-14 sm:mt-0 shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
+        className="lg:min-w-1/4 md:w-[380px] md:min-h-[490px]  m-10 sm:w-[60svw] xs:w-[60svw] mx-auto   md:mt-20 lg:mt-14 sm:mt-0 shadow-2xl shadow-hero hover:scale-110 transition-all delay-75"
       />
     </div>
     <div
