@@ -1,16 +1,16 @@
 <template>
   <div id="contact" class="max-w-[1140px] m-auto mt-[5svh]">
-    <h2 class="text-center text-gray-700 p-4 font-bold text-4xl">
+    <h2 class="text-center text-gray-700 p-4 font-bold md:text-4xl text-3xl">
       Send us a message
     </h2>
-    <p class="text-center text-gray-700 text-2xl">
+    <p class="text-center text-gray-700 md:text-2xl text-xl">
       Can't wait to hear your thoughts!
     </p>
-    <div class="grid md:grid-cols-2 mt-16">
+    <div class="grid md:grid-cols-2 grid-cols-1 mt-16">
       <img
         :src="f2"
         alt="/"
-        class="md:h-full sm:w-[400px] sm:h-[400px] mx-auto xs:w-[400px] xs:h-[400px] p-2 max-h-[500px] h-[200px] w-[420px] hover:scale-110 transition-all delay-75"
+        class="md:h-full w-[400px] h-[400px] mx-auto p-2 max-h-[500px] hover:scale-110 transition-all delay-75"
       />
       <form>
         <div class="grid grid-cols-2">
