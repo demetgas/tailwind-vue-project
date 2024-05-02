@@ -4,7 +4,7 @@
       <div
         v-for="item in whatwedo"
         :key="item.id"
-        class="mx-auto border-2 m-10 lg:w-[20svw] md:w-[30svh] sm:w-[40svw] w-[80svw] h-auto p-5 flex flex-col items-center hover:scale-110 hover:border-babyblue2 transition-all delay-75 cursor-pointer"
+        class="mx-auto border-2 m-10 lg:w-[80%] md:w-[70%] w-[60%] h-auto p-5 flex flex-col items-center hover:scale-110 hover:border-babyblue2 transition-all delay-75 cursor-pointer"
       >
         <font-awesome-icon class="text-babyblue2" size="4x" :icon="item.icon" />
 
@@ -14,6 +14,7 @@
     </div>
   </div>
 </template>
+
 <script>
 import {
   faCat,
@@ -23,6 +24,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import whatwedo from "../data/whatwedo.js";
+
 export default {
   name: "WhatWeDo",
   data() {
