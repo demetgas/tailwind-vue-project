@@ -24,27 +24,46 @@
               >Name</span
             >
           </div>
-
-          <input
-            class="border m-2 p-2 rounded"
-            type="text"
-            placeholder="Last Name"
-          />
-          <input
-            class="border m-2 p-2 rounded"
-            type="email"
-            placeholder="Email"
-          />
-          <input
-            class="border m-2 p-2 rounded"
-            type="tel"
-            placeholder="Phone"
-          />
-          <input
-            class="border col-span-2 p-2 m-2 rounded"
-            type="text"
-            placeholder="Address"
-          />
+          <div class="relative">
+            <input
+              class="border m-2 p-2 rounded h-10 w-[21vw] outline-none focus:border-babyblue3 transition duration-200"
+              type="text"
+            />
+            <span
+              class="absolute left-5 top-4 text-gray-400 transition duration-200 input-text"
+              >Last Name</span
+            >
+          </div>
+          <div class="relative">
+            <input
+              class="border m-2 p-2 rounded h-10 w-[21vw] outline-none focus:border-babyblue3 transition duration-200"
+              type="email"
+            />
+            <span
+              class="absolute left-5 top-4 text-gray-400 transition duration-200 input-text"
+              >Email</span
+            >
+          </div>
+          <div class="relative">
+            <input
+              class="border m-2 p-2 rounded h-10 w-[21vw] outline-none focus:border-babyblue3 transition duration-200"
+              type="tel"
+            />
+            <span
+              class="absolute left-5 top-4 text-gray-400 transition duration-200 input-text"
+              >Phone</span
+            >
+          </div>
+          <div class="relative">
+            <input
+              class="border m-2 p-2 rounded h-10 w-[21vw] outline-none focus:border-babyblue3 transition duration-200"
+              type="text"
+            />
+            <span
+              class="absolute left-5 top-4 text-gray-400 transition duration-200 input-text"
+              >Adress</span
+            >
+          </div>
           <textarea
             class="border col-span-2 m-2 p-2 rounded"
             cols="30"
