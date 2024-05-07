@@ -5,7 +5,7 @@ body {
   margin: 0;
   @apply font-[Poppins];
 }
-.input-text {
+input[type="text"]:focus ~ .input-text {
   @apply text-gray-800 bg-white transform -translate-y-5 scale-90;
 }
 code {
