@@ -7,11 +7,14 @@
       class="relative p-4 hover:scale-110 hover:underline transition-all delay-75 cursor-pointer text-center"
       :key="cat.id"
     >
-      <img
+      <div
         class="w-64 h-64 object-cover mx-auto border-4 border-black p-2 shadow-lg"
-        :src="cat.img"
-        alt="/"
-      />
+        :style="{
+          backgroundImage: `url(${cat.img})`,
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+        }"
+      ></div>
       <h3
         class="text-black bg-opacity-70 rounded-md p-1.5 border-black text-xl font-bold"
       >
