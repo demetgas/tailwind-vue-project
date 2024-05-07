@@ -1,6 +1,7 @@
 <template>
   <div
     class="w-full min-h-[50px] bg-hero flex justify-between items-center absolute z-10 text-white"
+    :class="{ fixed: open }"
   >
     <div
       class="md:pl-16 pl-5 text-2xl text-gray-400 hover:text-white hover:scale-110 transition-all delay-75 cursor-pointer"
@@ -8,19 +9,21 @@
       LITTLE PAWS
       <font-awesome-icon class="icon" :icon="faCat" />
     </div>
-    <div class="md:hidden">
+    <div class="md:hidden relative z-10">
       <button @click="handleClick" class="text-xl text-gray-400 mr-4">
         <font-awesome-icon :icon="open ? faTimes : faBars" />
       </button>
     </div>
     <ul
+      class="md:flex"
       :class="[
-        'md:flex',
         open ? 'block' : 'hidden',
+        'md:h-[50px]',
+        'h-screen',
         'md:mt-0',
         'absolute',
         'md:relative',
-        'top-full',
+        'top-0',
         'right-0',
         'md:top-0',
         'md:right-auto',
@@ -37,7 +40,10 @@
         'items-center',
       ]"
     >
-      <li class="p-4 hover:text-white hover:underline" @click="handleClick">
+      <li
+        class="p-4 hover:text-white hover:underline mt-10 md:mt-0"
+        @click="handleClick"
+      >
         <a href="/">Home</a>
       </li>
       <li class="p-4 hover:text-white hover:underline" @click="handleClick">
@@ -89,4 +95,11 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+</style>
