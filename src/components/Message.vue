@@ -16,7 +16,7 @@
         <div class="grid grid-cols-2">
           <div class="relative">
             <input
-              class="border m-2 p-2 rounded h-10 w-[21vw] outline-none focus:border-babyblue3 transition duration-200"
+              class="border m-2 p-2 rounded md:h-10 md:w-[10vw] outline-none focus:border-babyblue3 transition duration-200"
               type="text"
             />
             <span
@@ -26,7 +26,7 @@
           </div>
           <div class="relative">
             <input
-              class="border m-2 p-2 rounded h-10 w-[21vw] outline-none focus:border-babyblue3 transition duration-200"
+              class="border m-2 p-2 md:h-10 md:w-[10vw] rounded outline-none focus:border-babyblue3 transition duration-200"
               type="text"
             />
             <span
@@ -36,7 +36,7 @@
           </div>
           <div class="relative">
             <input
-              class="border m-2 p-2 rounded h-10 w-[21vw] outline-none focus:border-babyblue3 transition duration-200"
+              class="border m-2 p-2 md:h-10 md:w-[10vw] rounded outline-none focus:border-babyblue3 transition duration-200"
               type="email"
             />
             <span
@@ -46,7 +46,7 @@
           </div>
           <div class="relative">
             <input
-              class="border m-2 p-2 rounded h-10 w-[21vw] outline-none focus:border-babyblue3 transition duration-200"
+              class="border m-2 p-2 md:h-10 md:w-[10vw] rounded outline-none focus:border-babyblue3 transition duration-200"
               type="tel"
             />
             <span
@@ -56,7 +56,7 @@
           </div>
           <div class="relative">
             <input
-              class="border m-2 p-2 rounded h-10 w-[21vw] outline-none focus:border-babyblue3 transition duration-200"
+              class="border md:h-10 md:w-[21.2vw] p-2 m-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="text"
             />
             <span
