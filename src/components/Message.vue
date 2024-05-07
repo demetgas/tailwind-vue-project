@@ -14,11 +14,17 @@
       />
       <form>
         <div class="grid grid-cols-2">
-          <input
-            class="border m-2 p-2 rounded"
-            type="text"
-            placeholder="Name"
-          />
+          <div class="relative">
+            <input
+              class="border m-2 p-2 rounded h-10 w-[21vw] outline-none focus:border-babyblue3 transition duration-200"
+              type="text"
+            />
+            <span
+              class="absolute left-5 top-4 text-gray-400 transition duration-200 input-text"
+              >Name</span
+            >
+          </div>
+
           <input
             class="border m-2 p-2 rounded"
             type="text"
