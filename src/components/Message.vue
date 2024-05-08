@@ -13,10 +13,10 @@
         class="md:h-full w-[400px] h-[400px] mx-auto p-2 max-h-[500px] hover:scale-110 transition-all delay-75"
       />
       <form>
-        <div class="grid grid-cols-2">
-          <div class="relative">
+        <div class="grid grid-cols-2 gap-x-3">
+          <div class="relative col-span-1">
             <input
-              class="border m-2 p-2 rounded md:h-10 md:w-[10vw] outline-none focus:border-babyblue3 transition duration-200"
+              class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="text"
             />
             <span
@@ -24,9 +24,9 @@
               >Name</span
             >
           </div>
-          <div class="relative">
+          <div class="relative col-span-1">
             <input
-              class="border m-2 p-2 md:h-10 md:w-[10vw] rounded outline-none focus:border-babyblue3 transition duration-200"
+              class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="text"
             />
             <span
@@ -34,9 +34,9 @@
               >Last Name</span
             >
           </div>
-          <div class="relative">
+          <div class="relative col-span-1">
             <input
-              class="border m-2 p-2 md:h-10 md:w-[10vw] rounded outline-none focus:border-babyblue3 transition duration-200"
+              class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="email"
             />
             <span
@@ -44,9 +44,9 @@
               >Email</span
             >
           </div>
-          <div class="relative">
+          <div class="relative col-span-1">
             <input
-              class="border m-2 p-2 md:h-10 md:w-[10vw] rounded outline-none focus:border-babyblue3 transition duration-200"
+              class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="tel"
             />
             <span
@@ -54,9 +54,9 @@
               >Phone</span
             >
           </div>
-          <div class="relative">
+          <div class="relative col-span-2">
             <input
-              class="border md:h-10 md:w-[21.2vw] p-2 m-2 rounded outline-none focus:border-babyblue3 transition duration-200"
+              class="border w-full p-2 m-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="text"
             />
             <span
@@ -64,16 +64,18 @@
               >Adress</span
             >
           </div>
-          <textarea
-            class="border col-span-2 m-2 p-2 rounded"
-            cols="30"
-            rows="10"
-          ></textarea>
-          <button
-            class="m-2 p-2 col-span-2 rounded text-white bg-hero2 hover:bg-hero transition duration-3000 ease-out delay-100"
-          >
-            Submit
-          </button>
+          <div class="col-span-2">
+            <textarea
+              class="border w-full m-2 p-2 rounded"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button
+              class="m-2 p-2 w-full rounded text-white bg-hero2 hover:bg-hero transition duration-3000 ease-out delay-100"
+            >
+              Submit
+            </button>
+          </div>
         </div>
       </form>
     </div>
