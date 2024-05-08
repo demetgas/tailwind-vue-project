@@ -18,13 +18,15 @@
             <input
               class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="text"
+              @focus="handleInputFocus('name')"
               @blur="handleInputBlur('name')"
               v-model="name"
             />
             <span
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
-                'text-sky-700 bg-white transform -translate-y-5 scale-90': name,
+                'text-sky-700 bg-white transform -translate-y-5 scale-90':
+                  name || nameFocused,
               }"
               >Name</span
             >
@@ -33,6 +35,7 @@
             <input
               class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="text"
+              @focus="handleInputFocus('lastName')"
               @blur="handleInputBlur('lastName')"
               v-model="lastName"
             />
@@ -40,7 +43,7 @@
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
                 ' bg-white text-sky-700 transform -translate-y-5 scale-90':
-                  lastName,
+                  lastName || lastNameFocused,
               }"
               >Last Name</span
             >
@@ -49,6 +52,7 @@
             <input
               class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="email"
+              @focus="handleInputFocus('email')"
               @blur="handleInputBlur('email')"
               v-model="email"
             />
@@ -56,7 +60,7 @@
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
                 'text-sky-700 bg-white transform -translate-y-5 scale-90':
-                  email,
+                  email || emailFocused,
               }"
               >Email</span
             >
@@ -65,6 +69,7 @@
             <input
               class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="tel"
+              @focus="handleInputFocus('phone')"
               @blur="handleInputBlur('phone')"
               v-model="phone"
             />
@@ -72,7 +77,7 @@
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
                 'text-sky-700 bg-white transform -translate-y-5 scale-90':
-                  phone,
+                  phone || phoneFocused,
               }"
               >Phone</span
             >
@@ -81,6 +86,7 @@
             <input
               class="border w-full p-2 m-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="text"
+              @focus="handleInputFocus('address')"
               @blur="handleInputBlur('address')"
               v-model="address"
             />
@@ -88,7 +94,7 @@
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
                 ' text-sky-700 bg-white transform -translate-y-5 scale-90':
-                  address,
+                  address || addressFocused,
               }"
               >Address</span
             >
@@ -123,13 +129,21 @@ export default {
       email: "",
       phone: "",
       address: "",
+      nameFocused: false,
+      lastNameFocused: false,
+      emailFocused: false,
+      phoneFocused: false,
+      addressFocused: false,
     };
   },
   methods: {
+    handleInputFocus(field) {
+      this[`${field}Focused`] = true;
+    },
     handleInputBlur(field) {
       const value = this[field];
       if (!value) {
-        this[field] = "";
+        this[`${field}Focused`] = false;
       }
     },
   },
