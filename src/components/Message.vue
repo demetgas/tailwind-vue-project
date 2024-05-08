@@ -66,7 +66,7 @@
           </div>
           <div class="col-span-2">
             <textarea
-              class="border w-full m-2 p-2 rounded"
+              class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3"
               cols="30"
               rows="10"
             ></textarea>
