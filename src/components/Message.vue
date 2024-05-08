@@ -18,9 +18,15 @@
             <input
               class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="text"
+              @blur="handleInputBlur('name')"
+              v-model="name"
             />
             <span
-              class="absolute left-5 top-4 text-gray-400 transition duration-200 input-text"
+              class="absolute left-5 top-4 text-gray-400 transition duration-200"
+              :class="{
+                'text-babyblue3 bg-white transform -translate-y-5 scale-90':
+                  name,
+              }"
               >Name</span
             >
           </div>
@@ -28,9 +34,15 @@
             <input
               class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="text"
+              @blur="handleInputBlur('lastName')"
+              v-model="lastName"
             />
             <span
-              class="absolute left-5 top-4 text-gray-400 transition duration-200 input-text"
+              class="absolute left-5 top-4 text-gray-400 transition duration-200"
+              :class="{
+                ' bg-white text-babyblue3 transform -translate-y-5 scale-90':
+                  lastName,
+              }"
               >Last Name</span
             >
           </div>
@@ -38,9 +50,15 @@
             <input
               class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="email"
+              @blur="handleInputBlur('email')"
+              v-model="email"
             />
             <span
-              class="absolute left-5 top-4 text-gray-400 transition duration-200 input-text"
+              class="absolute left-5 top-4 text-gray-400 transition duration-200"
+              :class="{
+                'text-babyblue3 bg-white transform -translate-y-5 scale-90':
+                  email,
+              }"
               >Email</span
             >
           </div>
@@ -48,9 +66,15 @@
             <input
               class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="tel"
+              @blur="handleInputBlur('phone')"
+              v-model="phone"
             />
             <span
-              class="absolute left-5 top-4 text-gray-400 transition duration-200 input-text"
+              class="absolute left-5 top-4 text-gray-400 transition duration-200"
+              :class="{
+                'text-babyblue3 bg-white transform -translate-y-5 scale-90':
+                  phone,
+              }"
               >Phone</span
             >
           </div>
@@ -58,10 +82,16 @@
             <input
               class="border w-full p-2 m-2 rounded outline-none focus:border-babyblue3 transition duration-200"
               type="text"
+              @blur="handleInputBlur('address')"
+              v-model="address"
             />
             <span
-              class="absolute left-5 top-4 text-gray-400 transition duration-200 input-text"
-              >Adress</span
+              class="absolute left-5 top-4 text-gray-400 transition duration-200"
+              :class="{
+                ' text-babyblue3 bg-white transform -translate-y-5 scale-90':
+                  address,
+              }"
+              >Address</span
             >
           </div>
           <div class="col-span-2">
@@ -81,6 +111,7 @@
     </div>
   </div>
 </template>
+
 <script>
 import f2 from "../assets/f2.jpeg";
 export default {
@@ -88,7 +119,20 @@ export default {
   data() {
     return {
       f2: f2,
+      name: "",
+      lastName: "",
+      email: "",
+      phone: "",
+      address: "",
     };
+  },
+  methods: {
+    handleInputBlur(field) {
+      const value = this[field];
+      if (!value) {
+        this[field] = "";
+      }
+    },
   },
 };
 </script>
