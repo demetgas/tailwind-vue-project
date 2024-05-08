@@ -13,7 +13,7 @@
         class="md:h-full w-[400px] h-[400px] mx-auto p-2 max-h-[500px] hover:scale-110 transition-all delay-75"
       />
       <form>
-        <div class="grid grid-cols-2 gap-x-3">
+        <div class="grid grid-cols-2 gap-x-3 mr-5">
           <div class="relative col-span-1">
             <input
               class="border w-full m-2 p-2 rounded outline-none focus:border-babyblue3 transition duration-200"
