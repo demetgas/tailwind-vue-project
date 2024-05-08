@@ -26,7 +26,7 @@
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
                 'text-sky-700 bg-white transform -translate-y-5 scale-90':
-                  name || nameFocused,
+                  nameFocused,
               }"
               >Name</span
             >
@@ -43,7 +43,7 @@
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
                 ' bg-white text-sky-700 transform -translate-y-5 scale-90':
-                  lastName || lastNameFocused,
+                  lastNameFocused,
               }"
               >Last Name</span
             >
@@ -60,7 +60,7 @@
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
                 'text-sky-700 bg-white transform -translate-y-5 scale-90':
-                  email || emailFocused,
+                  emailFocused,
               }"
               >Email</span
             >
@@ -77,7 +77,7 @@
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
                 'text-sky-700 bg-white transform -translate-y-5 scale-90':
-                  phone || phoneFocused,
+                  phoneFocused,
               }"
               >Phone</span
             >
@@ -94,7 +94,7 @@
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
                 ' text-sky-700 bg-white transform -translate-y-5 scale-90':
-                  address || addressFocused,
+                  addressFocused,
               }"
               >Address</span
             >
@@ -138,12 +138,12 @@ export default {
   },
   methods: {
     handleInputFocus(id) {
-      this[`${id}Focused`] = true;
+      this[id + "Focused"] = true;
     },
     handleInputBlur(id) {
       const value = this[id];
       if (!value) {
-        this[`${id}Focused`] = false;
+        this[id + "Focused"] = false;
       }
     },
   },
