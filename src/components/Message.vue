@@ -137,13 +137,13 @@ export default {
     };
   },
   methods: {
-    handleInputFocus(field) {
-      this[`${field}Focused`] = true;
+    handleInputFocus(id) {
+      this[`${id}Focused`] = true;
     },
-    handleInputBlur(field) {
-      const value = this[field];
+    handleInputBlur(id) {
+      const value = this[id];
       if (!value) {
-        this[`${field}Focused`] = false;
+        this[`${id}Focused`] = false;
       }
     },
   },
