@@ -24,8 +24,7 @@
             <span
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
-                'text-babyblue3 bg-white transform -translate-y-5 scale-90':
-                  name,
+                'text-sky-700 bg-white transform -translate-y-5 scale-90': name,
               }"
               >Name</span
             >
@@ -40,7 +39,7 @@
             <span
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
-                ' bg-white text-babyblue3 transform -translate-y-5 scale-90':
+                ' bg-white text-sky-700 transform -translate-y-5 scale-90':
                   lastName,
               }"
               >Last Name</span
@@ -56,7 +55,7 @@
             <span
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
-                'text-babyblue3 bg-white transform -translate-y-5 scale-90':
+                'text-sky-700 bg-white transform -translate-y-5 scale-90':
                   email,
               }"
               >Email</span
@@ -72,7 +71,7 @@
             <span
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
-                'text-babyblue3 bg-white transform -translate-y-5 scale-90':
+                'text-sky-700 bg-white transform -translate-y-5 scale-90':
                   phone,
               }"
               >Phone</span
@@ -88,7 +87,7 @@
             <span
               class="absolute left-5 top-4 text-gray-400 transition duration-200"
               :class="{
-                ' text-babyblue3 bg-white transform -translate-y-5 scale-90':
+                ' text-sky-700 bg-white transform -translate-y-5 scale-90':
                   address,
               }"
               >Address</span
